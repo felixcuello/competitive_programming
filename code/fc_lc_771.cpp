@@ -1,19 +1,17 @@
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
-        set<char> j;
-
+        bitset<255> j;
         int jl = jewels.length();
         for(int i=0; i<jl; i++)
-            j.insert(jewels[i]);
+            j[jewels[i]] = true;
 
         int result = 0;
-        int sn = stones.length();
-
-        for(int i=0; i<sn; i++)
-            if(j.find(stones[i]) != j.end())
+        int sl = stones.length();
+        for(int i=0; i<sl; i++)
+            if(j[stones[i]])
                 result++;
 
         return result;
     }
-};
+}
