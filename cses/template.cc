@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 
+#define ll long long
+#define ull unsigned long long
+
 #define FEQ(a,b) (abs(a-b) < 1e-9)
-#define RANGE(i,a,b) for(int i=a; i<b; i++)
+#define RANGE(i,a,b) for(unsigned long i=a; i<b; i++)
 
 using namespace std;
 
