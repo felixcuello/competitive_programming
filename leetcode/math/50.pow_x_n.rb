@@ -1,0 +1,1 @@
+../problems/50.pow_x_n.rb
