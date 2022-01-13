@@ -1,0 +1,7 @@
+t = readline.strip.to_i
+
+t.times do
+  n, l = readline.strip.split(/\s+/).map(&:to_i)
+  x = readline.strip.split(/\s+/).map(&:to_i)
+  
+end
