@@ -9,6 +9,7 @@ The bookmarks listed here are things that I wanted to read or they just caught m
 - [[https://cp-algorithms.com/algebra/binary-exp.html][CP Algorithms]]
 - [[https://medium.com/techie-delight/top-10-dynamic-programming-problems-5da486eeb360o][Top 10 DP Problems]]
 - [[https://codeforces.com/blog/entry/23054?][CodeForces awesome CP stuff]]
+- [[https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed][14 Patterns to Ace Any Coding Interview Question]]
 
 ** Algorithms
 *** Algebra
