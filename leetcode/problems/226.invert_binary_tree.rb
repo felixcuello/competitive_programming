@@ -9,20 +9,14 @@
 # end
 # @param {TreeNode} root
 # @return {TreeNode}
-def swap(root)
-  temp = root.left
-  root.left = root.right
-  root.right = temp
-end
-
 def invert_tree(root)
-  return root if root.nil?
-
-  result = root
-
-  swap(root)
-  invert_tree(root.left)
-  invert_tree(root.right)
-
-  result
+  return nil if root.nil?
+  
+  left = root.left
+  right = root.right
+  
+  root.left = invert_tree(right)
+  root.right = invert_tree(left)
+  
+  root
 end
