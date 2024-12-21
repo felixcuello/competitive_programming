@@ -1,4 +1,6 @@
-* Competitive Programming
+Competitive Programming
+-----------------------------------------------------------------------------------
+
 ** Bookmarks
 The bookmarks listed here are things that I wanted to read or they just caught my attention.
 - [[https://www.youtube.com/c/BackToBackSWE/playlists][Back To Back: Fantastic YouTube channel]]
@@ -18,8 +20,6 @@ The bookmarks listed here are things that I wanted to read or they just caught m
 *** Trees
 
 ** My own directories here
-- **`algoexpert`**: A few codes I did for that page (I lost most of them because my subscription ended)
-- **`bible_of_competitive_programming`**: Udemy Course I bought (quite good). I will store some code there
 - **`books/`**: Is the directory to upload theory resources.
 - **`codeforces/`**: Codes I solved on that platform
 - **`cses`**: This is the recommended site (from GCP)
