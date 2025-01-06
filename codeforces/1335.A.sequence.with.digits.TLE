@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int t; cin >> t;
+  while(t--) {
+    unsigned long long result = 0;
+    unsigned long long a; cin >> a;
+    unsigned long long k; cin >> k;
+
+    // k-times
+    for(int i=0; i<k-1; i++) {
+      // read digits
+      unsigned long long digits = a;
+      unsigned long long min = 9;
+      unsigned long long max = 0;
+      while(digits > 0) {
+        unsigned long long digit = digits % 10;
+        min = (digit < min) ? digit : min;
+        max = (digit > max) ? digit : max;
+        digits /= 10;
+      }
+      a += (min*max);
+    }
+    cout << a << '\n';
+  }
+}
+
